@@ -1,0 +1,281 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>New Hair Master - About Us (Hover State)</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-lowest": "#ffffff",
+                        "surface-bright": "#f9f9f9",
+                        "error-container": "#ffdad6",
+                        "inverse-on-surface": "#f0f1f1",
+                        "on-primary-fixed-variant": "#474646",
+                        "surface-container": "#eeeeee",
+                        "secondary-fixed-dim": "#e9c349",
+                        "primary-fixed": "#e5e2e1",
+                        "error": "#ba1a1a",
+                        "tertiary-fixed-dim": "#cac6c3",
+                        "primary-fixed-dim": "#c9c6c5",
+                        "on-primary": "#ffffff",
+                        "primary-container": "#1c1b1b",
+                        "outline-variant": "#c4c7c7",
+                        "surface": "#f9f9f9",
+                        "on-secondary-fixed": "#241a00",
+                        "on-error": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed": "#1d1b1a",
+                        "tertiary-fixed": "#e6e1df",
+                        "surface-variant": "#e2e2e2",
+                        "on-primary-container": "#858383",
+                        "inverse-primary": "#c9c6c5",
+                        "surface-container-low": "#f3f3f4",
+                        "on-background": "#1a1c1c",
+                        "on-primary-fixed": "#1c1b1b",
+                        "on-error-container": "#93000a",
+                        "on-tertiary-fixed-variant": "#484645",
+                        "surface-tint": "#5f5e5e",
+                        "surface-container-highest": "#e2e2e2",
+                        "inverse-surface": "#2f3131",
+                        "tertiary-container": "#1d1b1a",
+                        "on-surface-variant": "#444748",
+                        "on-tertiary": "#ffffff",
+                        "surface-dim": "#dadada",
+                        "tertiary": "#000000",
+                        "outline": "#747878",
+                        "on-tertiary-container": "#868381",
+                        "on-secondary-fixed-variant": "#574500",
+                        "primary": "#000000",
+                        "background": "#f9f9f9",
+                        "secondary-fixed": "#ffe088",
+                        "on-surface": "#1a1c1c",
+                        "on-secondary-container": "#745c00",
+                        "surface-container-high": "#e8e8e8",
+                        "secondary": "#735c00",
+                        "secondary-container": "#fed65b",
+                        "gold": "#D4AF37"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "section-gap-desktop": "120px",
+                        "container-max": "1280px",
+                        "margin-mobile": "20px",
+                        "base": "8px",
+                        "gutter": "24px",
+                        "section-gap-mobile": "64px"
+                    },
+                    "fontFamily": {
+                        "label-caps": ["Montserrat"],
+                        "headline-lg": ["Playfair Display"],
+                        "body-md": ["Montserrat"],
+                        "body-lg": ["Montserrat"],
+                        "headline-md": ["Playfair Display"],
+                        "button": ["Montserrat"],
+                        "display-lg-mobile": ["Playfair Display"],
+                        "display-lg": ["Playfair Display"]
+                    },
+                    "fontSize": {
+                        "label-caps": ["12px", { "lineHeight": "1.0", "letterSpacing": "0.15em", "fontWeight": "700" }],
+                        "headline-lg": ["32px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "letterSpacing": "0.01em", "fontWeight": "400" }],
+                        "headline-md": ["24px", { "lineHeight": "1.4", "fontWeight": "600" }],
+                        "button": ["14px", { "lineHeight": "1.0", "letterSpacing": "0.1em", "fontWeight": "600" }],
+                        "display-lg-mobile": ["40px", { "lineHeight": "1.2", "fontWeight": "700" }],
+                        "display-lg": ["64px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .custom-cursor {
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/></svg>');
+            background-size: cover;
+            z-index: 100;
+            pointer-events: none;
+            /* Adjust position slightly to point correctly */
+            transform: translate(-4px, -4px);
+        }
+        
+        .stat-card-hover {
+            /* Simulating the hover state explicitly for the prompt requirements */
+            background-color: #D4AF37; /* Metallic Gold */
+            color: white;
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px -5px rgba(212, 175, 55, 0.4);
+            border-color: #D4AF37;
+        }
+        
+        .stat-card-hover .stat-value {
+            color: white;
+        }
+        
+        .stat-card-hover .stat-label {
+            color: rgba(255, 255, 255, 0.9);
+        }
+    </style>
+</head>
+<body class="bg-surface-container-lowest text-on-surface font-body-md antialiased selection:bg-gold selection:text-white">
+<!-- TopNavBar -->
+<nav class="bg-surface-container-lowest dark:bg-tertiary docked full-width top-0 sticky border-b border-outline-variant dark:border-tertiary-container z-50">
+<div class="flex justify-between items-center w-full px-gutter py-base max-w-container-max mx-auto z-50">
+<div class="font-headline-md text-headline-md font-bold text-primary dark:text-on-primary tracking-tight">
+                NEW HAIR MASTER
+            </div>
+<div class="hidden lg:flex space-x-8">
+<a class="font-button text-button uppercase tracking-widest text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-300" href="why-choose-us.html">WHY CHOOSE US</a><a class="font-button text-button uppercase tracking-widest text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-300" href="services.html">SERVICES</a>
+
+
+<a class="font-button text-button uppercase tracking-widest text-primary dark:text-secondary-fixed border-b-2 border-secondary-fixed pb-1 opacity-80 transition-all duration-200" href="about.html">ABOUT</a>
+<a class="font-button text-button uppercase tracking-widest text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-300" href="contact.html">CONTACT</a>
+</div>
+<button class="flex items-center justify-center p-2 text-primary dark:text-on-primary hover:text-gold transition-colors duration-300 lg:hidden" aria-label="Toggle Menu">
+    <span class="material-symbols-outlined text-[32px]">menu</span>
+</button><button class="bg-primary text-on-primary font-button text-button px-6 py-3 uppercase tracking-widest hover:bg-gold transition-colors duration-300">
+                BOOK NOW
+            </button>
+</div>
+</nav>
+<!-- Main Content -->
+<main>
+<!-- Hero Section -->
+<section class="py-section-gap-mobile md:py-section-gap-desktop px-margin-mobile md:px-gutter max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+<div class="col-span-1 md:col-span-5 space-y-8">
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary">
+                        The Art of <br><span class="italic text-surface-tint">Precision</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-md">
+                        Founded on the principles of architectural design applied to hair, New Hair Master is an exclusive salon and academy dedicated to pushing the boundaries of contemporary styling.
+                    </p>
+<div class="pt-4 border-t border-outline-variant w-24"></div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+                        We view every client as a canvas and every student as a future master. Our approach blends rigorous technique with intuitive artistry, creating looks that are both timeless and relentlessly modern.
+                    </p>
+</div>
+<div class="col-span-1 md:col-span-6 md:col-start-7 mt-12 md:mt-0 relative">
+<!-- High-end offset image layout -->
+<div class="relative w-full aspect-[4/5] bg-surface-container z-10">
+<img class="w-full h-full object-cover grayscale contrast-125" data-alt="A striking black and white portrait of a fashion model with an avant-garde, precision architectural haircut. The lighting is high-contrast, casting dramatic shadows that emphasize the sharp geometric lines of the hair against a stark white background. The image exudes high-fashion editorial elegance and uncompromising professional quality." src="https://lh3.googleusercontent.com/aida-public/AB6AXuARPOD94-EozThbDnNWMN1kMjI4hIjPTAqxne1nZXsGJksXyWzwWaO-t0KrnCxkZ44EYP0j1Dm0kkdYwvy8LYwcWZWnafxKbwfCnkJC5XoS3WcJkAarVSjZ3DriWn399PI1gO9fIstwCPTKLJC2f6NkJk6V6E6pRls4-KD6xaXBXSGR--12bkf1YRgatZ74sZ7Kpk7Ka2agI2EPoRNrS7ByWRpVAZ7COnAG2h5SU-OMj5lKo2-0sMx3RmwgA5nixdE4jc25R5XEN14">
+</div>
+<!-- Decorative background element -->
+<div class="absolute -bottom-8 -left-8 w-2/3 h-2/3 border border-outline-variant z-0 hidden md:block"></div>
+</div>
+</div>
+</section>
+<!-- Stats Section with Simulated Hover -->
+<section class="bg-surface-bright py-section-gap-mobile md:py-section-gap-desktop px-margin-mobile md:px-gutter">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-16 space-y-4">
+<h2 class="font-label-caps text-label-caps text-surface-tint tracking-widest">OUR LEGACY</h2>
+<p class="font-headline-lg text-headline-lg text-primary">Excellence by the Numbers</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Standard Stat Card -->
+<div class="border border-outline-variant bg-surface-container-lowest p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:-translate-y-1 hover:border-gold group">
+<span class="font-display-lg text-display-lg text-primary group-hover:text-gold transition-colors duration-300">15+</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant mt-4">YEARS OF MASTERY</span>
+</div>
+<!-- ACTIVE HOVER STATE CARD (Simulated as requested) -->
+<div class="border p-8 flex flex-col items-center justify-center text-center transition-all duration-300 stat-card-hover relative cursor-pointer">
+<span class="font-display-lg text-display-lg stat-value transition-colors duration-300">10k</span>
+<span class="font-label-caps text-label-caps stat-label mt-4">CLIENTS TRANSFORMED</span>
+<!-- Simulated Cursor for demonstration -->
+<div class="custom-cursor absolute bottom-4 right-8"></div>
+</div>
+<!-- Standard Stat Card -->
+<div class="border border-outline-variant bg-surface-container-lowest p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:-translate-y-1 hover:border-gold group">
+<span class="font-display-lg text-display-lg text-primary group-hover:text-gold transition-colors duration-300">500</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant mt-4">STYLISTS GRADUATED</span>
+</div>
+</div>
+</div>
+</section>
+<!-- The Founder / Master Stylist -->
+<section class="py-section-gap-mobile md:py-section-gap-desktop px-margin-mobile md:px-gutter max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+<div class="col-span-1 md:col-span-5 order-2 md:order-1 mt-12 md:mt-0">
+<div class="relative w-full aspect-square bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="A moody, high-contrast portrait of a master hair stylist in a minimalist, upscale salon environment. The stylist is dressed in impeccable, structured black clothing, holding professional shears with an air of intense focus and precision. The lighting is dramatic, highlighting the texture of the tools and the stylist's face, creating an aura of exclusive luxury and artistic mastery." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJ8b4R9dwBawtUmBk8UlT8oHk6M_okdRDh53wxULwTFM-xteqibDih6WkjmkvzfEMWl1Fqn91kbte9iXt6vfm6UR_Fq-y-da79Yu97LYJvappDOUJacAfZHIkh51aAekYvEukV5kqpjyPQlBrwXRNjkqMhFPa30mFLiKX3OHwPGkB54ctFWvfykNXHSpEdBeO3OwOPGC47DhoA1eRSd91hbzgw1MkwS9BnBGzI7VVecKiwjt49wKOCm8N_d3O_a70syIM_rQCm3R4">
+</div>
+</div>
+<div class="col-span-1 md:col-span-6 md:col-start-7 order-1 md:order-2 space-y-8">
+<h2 class="font-label-caps text-label-caps text-surface-tint tracking-widest">THE VISIONARY</h2>
+<h3 class="font-headline-md text-headline-md text-primary">Master Stylist &amp; Educator</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                        Our founder believes that true luxury lies in absolute precision. With a background in fine arts before transitioning to hair design, they brought a unique, structural perspective to styling that has defined our brand's ethos.
+                    </p>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                        Every cut, every color placement is calculated to enhance natural geometry while making a definitive statement. This philosophy is rigorously passed down through the Academy, ensuring the legacy of precision continues.
+                    </p>
+<button class="font-button text-button uppercase text-primary border-b border-gold pb-1 hover:text-gold hover:border-primary transition-colors duration-300 mt-4">
+                        READ FULL BIO
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-primary dark:bg-tertiary w-full px-margin-mobile md:px-gutter py-section-gap-mobile md:py-section-gap-desktop max-w-container-max mx-auto border-t border-tertiary-container mt-24">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-end">
+<div>
+<div class="font-headline-md text-headline-md text-on-primary dark:text-on-tertiary mb-8">
+                    NEW HAIR MASTER
+                </div>
+<div class="flex flex-col md:flex-row gap-6 md:gap-12">
+<a class="font-label-caps text-label-caps text-on-tertiary-container hover:text-secondary-fixed transition-all duration-300 hover:translate-x-1" href="#">PRIVACY POLICY</a>
+<a class="font-label-caps text-label-caps text-on-tertiary-container hover:text-secondary-fixed transition-all duration-300 hover:translate-x-1" href="#">TERMS OF SERVICE</a>
+<a class="font-label-caps text-label-caps text-on-tertiary-container hover:text-secondary-fixed transition-all duration-300 hover:translate-x-1" href="#">CAREERS</a>
+<a class="font-label-caps text-label-caps text-on-tertiary-container hover:text-secondary-fixed transition-all duration-300 hover:translate-x-1" href="#">LOCATIONS</a>
+</div>
+</div>
+<div class="text-left md:text-right font-body-md text-body-md text-on-primary dark:text-on-tertiary opacity-70">
+                © 2024 NEW HAIR MASTER SALON &amp; ACADEMY. ALL RIGHTS RESERVED.
+            </div>
+</div>
+</footer>
+
+
+
+
+
+
+
+
+<div id="mobile-menu" class="fixed inset-0 z-[100] hidden" role="dialog" aria-modal="true">
+    <div class="fixed inset-0 bg-primary/40 backdrop-blur-sm transition-opacity" aria-hidden="true"></div>
+    <div class="fixed inset-y-0 right-0 z-[101] w-full max-w-xs bg-surface-container-lowest dark:bg-tertiary shadow-xl flex flex-col">
+        <div class="flex items-center justify-between px-gutter py-base border-b border-outline-variant dark:border-tertiary-container">
+            <span class="font-headline-md text-headline-md font-bold text-primary dark:text-on-primary tracking-tight">NEW HAIR MASTER</span>
+            <button id="close-menu" class="p-2 text-primary dark:text-on-primary hover:text-gold transition-colors">
+                <span class="material-symbols-outlined text-[32px]">close</span>
+            </button>
+        </div>
+        <nav class="flex-1 px-gutter py-12 space-y-8">
+            <a href="about.html" class="block font-button text-button uppercase tracking-widest text-on-surface-variant dark:text-on-tertiary-container hover:text-gold transition-colors">ABOUT US</a>
+            <a href="services.html" class="block font-button text-button uppercase tracking-widest text-on-surface-variant dark:text-on-tertiary-container hover:text-gold transition-colors">SERVICES</a>
+            <a href="why-choose-us.html" class="block font-button text-button uppercase tracking-widest text-on-surface-variant dark:text-on-tertiary-container hover:text-gold transition-colors">WHY CHOOSE US</a>
+            <a href="contact.html" class="block font-button text-button uppercase tracking-widest text-on-surface-variant dark:text-on-tertiary-container hover:text-gold transition-colors">CONTACT</a>
+        </nav>
+        <div class="p-gutter border-t border-outline-variant dark:border-tertiary-container">
+            <button class="w-full bg-primary text-on-primary font-button text-button py-4 uppercase tracking-widest hover:bg-gold transition-colors">
+                BOOK NOW
+            </button>
+        </div>
+    </div>
+</div></body></html>

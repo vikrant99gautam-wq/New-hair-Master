@@ -1,0 +1,424 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Why Choose Us - New Hair Master</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Montserrat:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-highest": "#e2e2e2",
+                        "on-tertiary-container": "#868381",
+                        "primary-container": "#1c1b1b",
+                        "error-container": "#ffdad6",
+                        "outline-variant": "#c4c7c7",
+                        "outline": "#747878",
+                        "on-surface-variant": "#444748",
+                        "error": "#ba1a1a",
+                        "surface-variant": "#e2e2e2",
+                        "surface": "#f9f9f9",
+                        "secondary-fixed-dim": "#e9c349",
+                        "tertiary-fixed-dim": "#cac6c3",
+                        "primary-fixed-dim": "#c9c6c5",
+                        "primary-fixed": "#e5e2e1",
+                        "on-primary-fixed-variant": "#474646",
+                        "on-secondary-fixed": "#241a00",
+                        "inverse-surface": "#2f3131",
+                        "secondary-fixed": "#ffe088",
+                        "on-surface": "#1a1c1c",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#484645",
+                        "background": "#f9f9f9",
+                        "on-primary": "#ffffff",
+                        "tertiary-container": "#1d1b1a",
+                        "on-tertiary-fixed": "#1d1b1a",
+                        "secondary": "#735c00",
+                        "inverse-primary": "#c9c6c5",
+                        "on-error": "#ffffff",
+                        "surface-container-high": "#e8e8e8",
+                        "surface-container": "#eeeeee",
+                        "primary": "#000000",
+                        "secondary-container": "#fed65b",
+                        "on-primary-fixed": "#1c1b1b",
+                        "tertiary-fixed": "#e6e1df",
+                        "surface-tint": "#5f5e5e",
+                        "on-tertiary": "#ffffff",
+                        "surface-dim": "#dadada",
+                        "on-secondary-fixed-variant": "#574500",
+                        "tertiary": "#000000",
+                        "on-error-container": "#93000a",
+                        "surface-bright": "#f9f9f9",
+                        "inverse-on-surface": "#f0f1f1",
+                        "on-secondary-container": "#745c00",
+                        "on-primary-container": "#858383",
+                        "on-background": "#1a1c1c",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-low": "#f3f3f4"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-mobile": "20px",
+                        "section-gap-mobile": "64px",
+                        "container-max": "1280px",
+                        "base": "8px",
+                        "section-gap-desktop": "120px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Playfair Display"],
+                        "display-lg-mobile": ["Playfair Display"],
+                        "headline-md": ["Playfair Display"],
+                        "display-lg": ["Playfair Display"],
+                        "button": ["Montserrat"],
+                        "label-caps": ["Montserrat"],
+                        "body-lg": ["Montserrat"],
+                        "body-md": ["Montserrat"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["32px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "display-lg-mobile": ["40px", { "lineHeight": "1.2", "fontWeight": "700" }],
+                        "headline-md": ["24px", { "lineHeight": "1.4", "fontWeight": "600" }],
+                        "display-lg": ["64px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "button": ["14px", { "lineHeight": "1.0", "letterSpacing": "0.1em", "fontWeight": "600" }],
+                        "label-caps": ["12px", { "lineHeight": "1.0", "letterSpacing": "0.15em", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "letterSpacing": "0.01em", "fontWeight": "400" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }]
+                    },
+                    "animation": {
+                        "fade-up": "fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards",
+                        "reveal": "reveal 1.2s cubic-bezier(0.77, 0, 0.175, 1) forwards"
+                    },
+                    "keyframes": {
+                        "fadeUp": {
+                            "0%": { opacity: "0", transform: "translateY(30px)" },
+                            "100%": { opacity: "1", transform: "translateY(0)" }
+                        },
+                        "reveal": {
+                            "0%": { clipPath: "inset(0 100% 0 0)" },
+                            "100%": { clipPath: "inset(0 0 0 0)" }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .fade-up-item { opacity: 0; }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 1.5rem;
+        }
+        @media (min-width: 768px) {
+            .bento-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (min-width: 1024px) {
+            .bento-grid { grid-template-columns: repeat(12, 1fr); }
+            .bento-item-1 { grid-column: span 4; grid-row: span 2; }
+            .bento-item-2 { grid-column: span 4; }
+            .bento-item-3 { grid-column: span 4; }
+            .bento-item-4 { grid-column: span 8; }
+            .bento-item-5 { grid-column: span 4; grid-row: span 2; }
+            .bento-item-6 { grid-column: span 4; }
+            .bento-item-7 { grid-column: span 4; }
+            .bento-item-8 { grid-column: span 8; }
+        }
+    </style>
+</head>
+<body class="bg-surface-container-lowest text-on-surface antialiased">
+<!-- TopNavBar -->
+<header class="bg-surface-container-lowest dark:bg-tertiary sticky top-0 w-full z-50 border-b border-outline-variant dark:border-tertiary-container shadow-none">
+<div class="flex justify-between items-center w-full px-gutter py-base max-w-container-max mx-auto z-50">
+<div class="font-headline-md text-headline-md font-bold text-primary dark:text-on-primary">
+                NEW HAIR MASTER
+            </div>
+<nav class="hidden lg:flex items-center space-x-8">
+<a class="font-button text-button uppercase tracking-widest text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-300" href="why-choose-us.html">WHY CHOOSE US</a><a class="font-button text-button uppercase tracking-widest text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-300" href="services.html">SERVICES</a>
+
+
+<a class="font-button text-button uppercase tracking-widest text-primary dark:text-secondary-fixed border-b-2 border-secondary-fixed pb-1 opacity-80 transition-all duration-200" href="about.html">ABOUT</a>
+<a class="font-button text-button uppercase tracking-widest text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-300" href="contact.html">CONTACT</a>
+</nav>
+<button class="bg-primary text-on-primary font-button text-button uppercase tracking-widest px-6 py-3 hover:bg-secondary transition-colors duration-300 hidden lg:block">
+                BOOK NOW
+            </button>
+<!-- Mobile Menu Icon (simplified for purely structural representation) -->
+<button class="lg:hidden flex flex-col justify-center items-center w-10 h-10 space-y-1.5 group focus:outline-none" aria-label="Toggle Menu" onclick="document.getElementById('mobile-sidebar').classList.remove('translate-x-full')">
+  <span class="block w-6 h-0.5 bg-primary dark:bg-on-primary group-hover:bg-secondary transition-all duration-300"></span>
+  <span class="block w-6 h-0.5 bg-primary dark:bg-on-primary group-hover:bg-secondary transition-all duration-300"></span>
+  <span class="block w-6 h-0.5 bg-primary dark:bg-on-primary group-hover:bg-secondary transition-all duration-300"></span>
+</button>
+</div>
+</header>
+<main class="w-full relative overflow-hidden">
+<!-- Soft Background Gradient -->
+<div class="absolute inset-0 bg-gradient-to-b from-surface-bright to-surface-container-lowest z-0 pointer-events-none"></div>
+<section class="relative z-10 w-full max-w-container-max mx-auto px-margin-mobile md:px-gutter py-section-gap-mobile md:py-section-gap-desktop">
+<!-- Intro Header -->
+<div class="flex flex-col md:flex-row justify-between items-end mb-24 fade-up-item gap-8 animate-fade-up">
+<div class="max-w-2xl">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest block mb-6">WHY CHOOSE US</span>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-tertiary">
+                        Why Hundreds of Clients Trust New Hair Master
+                    </h1>
+</div>
+<div class="max-w-md">
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+                        We combine professional expertise, modern techniques, premium products, and personalized care to deliver exceptional salon experiences every time.
+                    </p>
+</div>
+</div>
+<!-- Bento Feature Grid -->
+<div class="bento-grid w-full">
+<!-- Card 1 (Large Vertical) -->
+<div class="bento-item-1 group relative bg-surface border border-outline-variant p-8 md:p-12 transition-all duration-500 hover:border-secondary hover:-translate-y-1 overflow-hidden fade-up-item flex flex-col justify-end min-h-[400px] animate-fade-up">
+<div class="absolute inset-0 bg-cover bg-center opacity-30 group-hover:opacity-40 transition-opacity duration-700 grayscale mix-blend-multiply" data-alt="A highly detailed, photorealistic editorial image of a luxury salon interior. Deep onyx black styling chairs contrast against pristine white walls. Warm, soft studio lighting highlights metallic gold accents on the mirrors. The mood is sophisticated, exclusive, and serene, perfect for a high-end beauty academy." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC2bAgIjrRr7WvRp5duyJZAZ_4UAJr2Su1r96aEVSpn5BPoq0OEvlEFHDtvyId3xTdEPKBYdAzFR8nYC3N8-GOgk5mwiNu2uMFXdhqGXQMb-PcIve2x4AgTvFx5O9EXp8FdMwxQg9FzrqGDDliYJAM3tW2Ui4PIHqnvhAoJlTGJladv8mIIak0pgqVj8bq0sVZ_vHbcioW8oVcwqb0P3kOdcJdiIlaCdq_S4CptWFISmsmlm34f1xyxIBqwVZraAs1_rJLyDWIbSME')"></div>
+<div class="relative z-10">
+<div class="w-12 h-12 rounded-full border border-secondary flex items-center justify-center mb-8 text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors duration-300 bg-surface-container-lowest">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-tertiary mb-4">Highly Rated Salon</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Trusted by clients with a 4.9-star rating and outstanding customer satisfaction.</p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bento-item-2 group bg-surface-container-lowest border border-outline-variant p-8 transition-all duration-500 hover:border-secondary hover:-translate-y-1 fade-up-item relative overflow-hidden animate-fade-up">
+<div class="w-10 h-10 border border-secondary flex items-center justify-center mb-6 text-secondary bg-surface transition-colors duration-300">
+<span class="material-symbols-outlined">content_cut</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-tertiary mb-3">Expert Stylists</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Experienced professionals skilled in the latest beauty, hair, and grooming trends.</p>
+<div class="absolute bottom-0 left-0 w-full h-[2px] bg-secondary scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-500"></div>
+</div>
+<!-- Card 3 -->
+<div class="bento-item-3 group bg-surface-container-low border border-outline-variant p-8 transition-all duration-500 hover:border-secondary hover:-translate-y-1 fade-up-item relative overflow-hidden animate-fade-up">
+<div class="w-10 h-10 border border-secondary flex items-center justify-center mb-6 text-secondary bg-surface-container-lowest transition-colors duration-300">
+<span class="material-symbols-outlined">spa</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-tertiary mb-3">Premium Products</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Only high-quality professional products are used for the best results.</p>
+<div class="absolute bottom-0 left-0 w-full h-[2px] bg-secondary scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-500"></div>
+</div>
+<!-- Card 4 (Wide Horizontal) -->
+<div class="bento-item-4 group bg-tertiary border border-outline-variant p-8 md:p-12 transition-all duration-500 hover:border-secondary-fixed fade-up-item relative overflow-hidden flex flex-col md:flex-row items-start md:items-center gap-8 animate-fade-up">
+<div class="w-16 h-16 rounded-full border border-secondary-fixed flex items-center justify-center shrink-0 text-secondary-fixed group-hover:bg-secondary-fixed group-hover:text-on-secondary-fixed transition-colors duration-300">
+<span class="material-symbols-outlined">forum</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-tertiary mb-3">Personalized Consultation</h3>
+<p class="font-body-md text-body-md text-on-tertiary-container max-w-xl">Every client receives customized recommendations based on their unique style, hair texture, and personal aesthetic goals.</p>
+</div>
+</div>
+<!-- Card 5 (Large Vertical) -->
+<div class="bento-item-5 group relative bg-surface border border-outline-variant p-8 md:p-12 transition-all duration-500 hover:border-secondary hover:-translate-y-1 overflow-hidden fade-up-item flex flex-col justify-end min-h-[400px] animate-fade-up">
+<div class="absolute inset-0 bg-cover bg-center opacity-30 group-hover:opacity-40 transition-opacity duration-700 grayscale mix-blend-multiply" data-alt="A close-up, high-fashion shot of a master stylist's hands delicately working on luxurious hair using premium gold shears. The lighting is dramatic and directional, casting soft shadows. The color palette focuses on deep rich blacks, pristine whites, and pops of metallic gold, emphasizing expertise and precision." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB5ceGzQtJbxiBp4bcFbqWRO-pY1HhKQfeKVikMcJVlo9-hSeDwJ7GtbpShw7lFIcqCesWkJXpWA0oFt0k0Bd3X3SXp08i_vPARc-o-fPiw4qIhvP_49_gqBsLUJ_w7iArcJ_vWrvlGaqN9qzOHF-3frOlzKQV4s2BT-aJ6hwLeG2QSeuTuaXflbLM7SRPpjiyiK3Te5OEe1zoxI_qbp36LlbjABD8xufrtZtJ67mGyKtwT5dBHAqiN2CEvJseqg2YxXG27uOugZA8')"></div>
+<div class="relative z-10">
+<div class="w-12 h-12 rounded-full border border-secondary flex items-center justify-center mb-8 text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors duration-300 bg-surface-container-lowest">
+<span class="material-symbols-outlined">school</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-tertiary mb-4">Professional Academy</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Learn from industry professionals through practical training and elite certification programs.</p>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="bento-item-6 group bg-surface-container-lowest border border-outline-variant p-8 transition-all duration-500 hover:border-secondary hover:-translate-y-1 fade-up-item relative overflow-hidden animate-fade-up">
+<div class="w-10 h-10 border border-secondary flex items-center justify-center mb-6 text-secondary bg-surface transition-colors duration-300">
+<span class="material-symbols-outlined">sanitizer</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-tertiary mb-3">Hygienic Environment</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Clean, sanitized, and welcoming spaces meticulously designed for a relaxing experience.</p>
+<div class="absolute bottom-0 left-0 w-full h-[2px] bg-secondary scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-500"></div>
+</div>
+<!-- Card 7 -->
+<div class="bento-item-7 group bg-surface-container-low border border-outline-variant p-8 transition-all duration-500 hover:border-secondary hover:-translate-y-1 fade-up-item relative overflow-hidden animate-fade-up">
+<div class="w-10 h-10 border border-secondary flex items-center justify-center mb-6 text-secondary bg-surface-container-lowest transition-colors duration-300">
+<span class="material-symbols-outlined">schedule</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-tertiary mb-3">Timely Service</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Efficient service delivery without compromising quality and rigorous attention to detail.</p>
+<div class="absolute bottom-0 left-0 w-full h-[2px] bg-secondary scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-500"></div>
+</div>
+<!-- Card 8 (Wide Horizontal) -->
+<div class="bento-item-8 group bg-surface-container-highest border border-outline-variant p-8 md:p-12 transition-all duration-500 hover:border-secondary hover:-translate-y-1 fade-up-item relative overflow-hidden flex flex-col md:flex-row items-start md:items-center gap-8 animate-fade-up">
+<div class="w-16 h-16 rounded-full border border-secondary flex items-center justify-center shrink-0 text-secondary bg-surface-container-lowest group-hover:bg-secondary group-hover:text-on-secondary transition-colors duration-300">
+<span class="material-symbols-outlined">favorite</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-tertiary mb-3">Customer Satisfaction First</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">Our ultimate goal is to ensure every single client leaves our salon feeling profoundly confident, refreshed, and entirely satisfied.</p>
+</div>
+<div class="absolute bottom-0 left-0 w-full h-[2px] bg-secondary scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-500"></div>
+</div>
+</div>
+</section>
+<!-- Trust Banner -->
+<section class="w-full bg-tertiary py-20 px-margin-mobile md:px-gutter relative overflow-hidden fade-up-item animate-fade-up">
+<div class="absolute inset-0 bg-cover bg-center opacity-10 pointer-events-none" data-alt="Abstract, ultra-high-resolution macro photography of black hair strands intertwining, creating a subtle, dark fluid texture. Deep onyx background with faint, ethereal gold lighting reflecting off the strands. Conveys a sense of professional mastery and luxury." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCkCMlA-qbYMDw1v5m0MbUDpllH7Onb5fh4Uve_AoK4vjqix4iEEAtgm1US4PgoJKQRQbhyboc8CN5cpZ5X-_7l1Rl3BsU9NciVR8O7KU2OvKpE6oiD7DCaEoC7F4raonROwxCuuQDaPHHa8HGDdKp2kx_Hyzs77LHRnRZrzqqP8txGCU1PtfwKLud9-UQEs45B2hhgIq0lFGsg5DPi7Bz8ebLgNy_t1kfisr4zV3yU9FkkI284lqcKrqkzWmF_jfckpYCdirzeSj4')"></div>
+<div class="relative z-10 max-w-container-max mx-auto grid grid-cols-2 md:grid-cols-4 gap-12 text-center divide-x-0 md:divide-x divide-outline/30">
+<div class="flex flex-col items-center justify-center px-4">
+<div class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-secondary-fixed-dim mb-4 flex items-center">
+<span class="counter" data-decimals="1" data-target="4.9">4.9</span>
+<span class="material-symbols-outlined text-4xl ml-2" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<div class="font-label-caps text-label-caps tracking-widest text-on-tertiary-container uppercase">Google Rating</div>
+</div>
+<div class="flex flex-col items-center justify-center px-4">
+<div class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-secondary-fixed-dim mb-4 flex items-center">
+<span class="counter" data-decimals="0" data-target="119">119</span>+
+                    </div>
+<div class="font-label-caps text-label-caps tracking-widest text-on-tertiary-container uppercase">Positive Reviews</div>
+</div>
+<div class="flex flex-col items-center justify-center px-4">
+<div class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-secondary-fixed-dim mb-4 flex items-center">
+<span class="counter" data-decimals="0" data-format="true" data-target="5000">5,000</span>+
+                    </div>
+<div class="font-label-caps text-label-caps tracking-widest text-on-tertiary-container uppercase">Happy Customers</div>
+</div>
+<div class="flex flex-col items-center justify-center px-4">
+<div class="w-16 h-16 border border-secondary-fixed-dim rounded-full flex items-center justify-center text-secondary-fixed-dim mb-4">
+<span class="material-symbols-outlined text-3xl">verified</span>
+</div>
+<div class="font-label-caps text-label-caps tracking-widest text-on-tertiary-container uppercase">Professional Salon<br>&amp; Academy</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-primary dark:bg-tertiary w-full border-t border-tertiary-container">
+<div class="w-full px-margin-mobile md:px-gutter py-section-gap-mobile md:py-section-gap-desktop max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="font-headline-md text-headline-md text-on-primary dark:text-on-tertiary">
+                NEW HAIR MASTER
+            </div>
+<nav class="flex flex-wrap justify-center gap-8">
+<a class="font-label-caps text-label-caps text-on-tertiary-container hover:text-secondary-fixed transition-all duration-300 hover:translate-x-1" href="#">PRIVACY POLICY</a>
+<a class="font-label-caps text-label-caps text-on-tertiary-container hover:text-secondary-fixed transition-all duration-300 hover:translate-x-1" href="#">TERMS OF SERVICE</a>
+<a class="font-label-caps text-label-caps text-on-tertiary-container hover:text-secondary-fixed transition-all duration-300 hover:translate-x-1" href="#">CAREERS</a>
+<a class="font-label-caps text-label-caps text-on-tertiary-container hover:text-secondary-fixed transition-all duration-300 hover:translate-x-1" href="#">LOCATIONS</a>
+</nav>
+<div class="font-body-md text-body-md text-on-tertiary-container text-center md:text-right">
+                © 2024 NEW HAIR MASTER SALON &amp; ACADEMY. ALL RIGHTS RESERVED.
+            </div>
+</div>
+</footer>
+<!-- Intersection Observer & Counter Script -->
+<script>
+        document.addEventListener("DOMContentLoaded", () => {
+            // Fade Up Animation Observer
+            const fadeElements = document.querySelectorAll('.fade-up-item');
+            const fadeObserver = new IntersectionObserver((entries) => {
+                entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                        setTimeout(() => {
+                            entry.target.classList.add('animate-fade-up');
+                        }, index * 100); // Staggered delay
+                        fadeObserver.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1, rootMargin: "0px 0px -50px 0px" });
+
+            fadeElements.forEach(el => fadeObserver.observe(el));
+
+            // Counter Animation Observer
+            const counters = document.querySelectorAll('.counter');
+            let hasCounted = false;
+
+            const animateCounters = () => {
+                counters.forEach(counter => {
+                    const target = parseFloat(counter.getAttribute('data-target'));
+                    const decimals = parseInt(counter.getAttribute('data-decimals')) || 0;
+                    const format = counter.getAttribute('data-format') === 'true';
+                    const duration = 2000; // ms
+                    const stepTime = Math.abs(Math.floor(duration / 60)); // assuming 60fps
+                    let current = 0;
+                    
+                    // Easing function (easeOutQuart)
+                    const easeOut = (t) => 1 - (--t) * t * t * t;
+                    let startTime = null;
+
+                    const step = (timestamp) => {
+                        if (!startTime) startTime = timestamp;
+                        const progress = Math.min((timestamp - startTime) / duration, 1);
+                        const easedProgress = easeOut(progress);
+                        let val = easedProgress * target;
+
+                        if (decimals > 0) {
+                            counter.innerText = val.toFixed(decimals);
+                        } else {
+                            val = Math.floor(val);
+                            if (format && val >= 1000) {
+                                counter.innerText = val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                            } else {
+                                counter.innerText = val;
+                            }
+                        }
+
+                        if (progress < 1) {
+                            window.requestAnimationFrame(step);
+                        } else {
+                             // Ensure final exact value
+                             if (decimals > 0) {
+                                counter.innerText = target.toFixed(decimals);
+                             } else {
+                                counter.innerText = format && target >= 1000 ? target.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") : target;
+                             }
+                        }
+                    };
+                    window.requestAnimationFrame(step);
+                });
+            };
+
+            const counterObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting && !hasCounted) {
+                        hasCounted = true;
+                        animateCounters();
+                        counterObserver.disconnect();
+                    }
+                });
+            }, { threshold: 0.5 });
+
+            if (counters.length > 0) {
+                // Find the closest parent section to observe
+                const bannerSection = counters[0].closest('section');
+                if(bannerSection) counterObserver.observe(bannerSection);
+            }
+        });
+    </script>
+
+
+
+
+
+
+
+
+<!-- Mobile Sidebar Overlay -->
+<div id="mobile-sidebar" class="fixed inset-0 z-[100] translate-x-full transition-transform duration-500 lg:hidden">
+    <div class="absolute inset-0 bg-primary/20 backdrop-blur-sm" onclick="document.getElementById('mobile-sidebar').classList.add('translate-x-full')"></div>
+    <div class="absolute right-0 top-0 h-full w-[300px] bg-surface-container-lowest shadow-2xl flex flex-col">
+        <div class="flex justify-between items-center p-6 border-b border-outline-variant">
+            <span class="font-label-caps text-label-caps tracking-widest text-secondary">NEW HAIR MASTER</span>
+            <button class="w-10 h-10 flex items-center justify-center" onclick="document.getElementById('mobile-sidebar').classList.add('translate-x-full')">
+                <span class="font-label-caps text-label-caps tracking-widest text-secondary">NEW HAIR MASTER</span>
+            </button>
+        </div>
+        <nav class="flex flex-col p-6 space-y-6"><a class="font-button text-button uppercase tracking-widest text-on-surface-variant hover:text-secondary transition-colors" href="about.html">ABOUT US</a><a class="font-button text-button uppercase tracking-widest text-on-surface-variant hover:text-secondary transition-colors" href="services.html">SERVICES</a><a class="font-button text-button uppercase tracking-widest text-on-surface-variant hover:text-secondary transition-colors" href="why-choose-us.html">WHY CHOOSE US</a><a class="font-button text-button uppercase tracking-widest text-on-surface-variant hover:text-secondary transition-colors" href="contact.html">CONTACT</a></nav>
+        <div class="mt-auto p-6">
+            <button class="w-full bg-primary text-on-primary font-button text-button uppercase tracking-widest py-4 hover:bg-secondary transition-colors">
+                BOOK NOW
+            </button>
+        </div>
+    </div>
+</div>
+
+</body></html>
